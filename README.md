@@ -4,7 +4,7 @@ A standalone module that synchronises content between **Sitecore XM/XP 10.x envi
 
 Any environment+database pair can be source or target: `master → web` on one server, `master → master` across servers, etc. Content always flows one way (source → target) and every change is previewed before anything is written.
 
-![SiteSync dashboard showing environment cards and sync history](assets/Dashboard.png)
+![SiteSync](/assets/Dashboard.png)
 
 *The dashboard: registered environments, live counters, and the full history of previews and applies.*
 
@@ -54,19 +54,19 @@ The screenshots below use the two seeded simulated environments, but the flow is
 
 Each card is one Sitecore server and the databases it exposes. **Test connection** performs a real login and reads the `/sitecore` root, so you know the credentials and network path work before running a sync.
 
-![Environments page with DEV and UAT environment cards](assets/NewEnv.png)
+![Environments](assets/NewEnv.png)
 
 ### 2. Configure the sync
 
 Pick any source and target environment+database pair, then choose what to compare — content under a root path, media library, templates, and layout — plus whether orphaned target items should be deleted on apply.
 
-![New synchronisation page with source, target and scope options](assets/NewSync.png)
+![New_synchronisation](assets/NewSync.png)
 
 ### 3. Watch progress, review the diff, then apply
 
 The job page streams live over SignalR: phase stepper, progress bar, counters, and the activity log. When the preview finishes you get the change list — expand any row to compare source and target field values side by side, resolve conflicts, and only then apply.
 
-![Job detail page with phase stepper, counters, activity log and field-level diff](assets/JobDetails.png)
+![Job_detail](assets/JobDetails.png)
 
 ## Connecting real Sitecore 10.x environments
 
