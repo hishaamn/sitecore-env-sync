@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SiteSync.Server/SiteSync.Server.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SiteSync.Server.Tests/SiteSync.Server.Tests.csproj" />
+  </Folder>
+</Solution>

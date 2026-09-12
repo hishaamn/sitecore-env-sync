@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/api.ts","./src/main.tsx","./src/signalr.ts","./src/components/shared.tsx","./src/pages/dashboard.tsx","./src/pages/environments.tsx","./src/pages/jobdetail.tsx","./src/pages/newsync.tsx"],"version":"5.9.3"}
